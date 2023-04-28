@@ -1,0 +1,48 @@
+.v3ti .v3ti-tag {
+  background: var(--dark);
+  height: 30px;
+}
+
+.v3ti .v3ti-tag .v3ti-remove-tag {
+  color: var(--light);
+  transition: color .3s;
+
+}
+
+.v3ti .v3ti-tag .v3ti-remove-tag {
+  text-decoration: none;
+}
+
+.v3ti .v3ti-tag .v3ti-remove-tag:hover {
+  color: #ffffff;
+}
+
+.select-section {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: .5rem;
+  .tag:not(:first-of-type){
+    margin-left: 0.25rem;
+  }
+}
+
+.tag {
+  font-size: .8rem;
+  background-color: var(--grey);
+  color: var(--light);
+  padding: 0.2rem .4rem;
+  border-radius: var(--border-radius-sm);
+  font-weight: 100;
+  display:inline-block;
+}
